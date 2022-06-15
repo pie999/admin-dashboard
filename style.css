@@ -132,6 +132,7 @@ img {
     background-color: rgb(230, 230, 230);
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 30px;
 }
 
 .projects {
@@ -148,8 +149,42 @@ img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
 }
 
+.card p {
+    color: gray;
+}
+
 .card-buttons {
     display: flex;
     justify-content: end;
+    gap: 15px;
+}
+
+
+.announcements {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    padding: 25px;
+}
+.announcements h3, .announcements p {
+    margin: 0px;
+}
+.announcements p {
+    color: gray;
+}
+
+
+.main-side {
+    display: grid;
+}
+
+.trending {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    padding: 25px;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     gap: 15px;
 }
